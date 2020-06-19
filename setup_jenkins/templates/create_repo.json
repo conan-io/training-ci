@@ -1,0 +1,8 @@
+{
+  "key": "<REPO_NAME>",
+  "rclass" : "local",
+  "packageType": "<REPO_TYPE>",
+  "repoLayoutRef" : "<REPO_LAYOUT>",
+  "description": "created by API",
+  "notes": "created by Rest API"
+}

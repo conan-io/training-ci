@@ -1,0 +1,23 @@
+{
+  "name": "<NAME>",
+  "repo": {
+    "include-patterns": ["**"],
+    "exclude-patterns": [""],
+    "repositories": ["<REPO1>","<REPO2>","<REPO3>","<REPO4>","<REPO5>"],
+    "actions": {
+      "users" : {
+        "<USER>": ["read","write","annotate","delete"]
+      }
+    }
+  },
+  "build": {
+    "include-patterns": ["**"],
+    "exclude-patterns": [""],
+    "repositories": ["artifactory-build-info"],
+    "actions": {
+      "users" : {
+        "<USER>": ["read","write","annotate","delete"]
+      }
+    }
+  }
+}

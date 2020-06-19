@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.DS_Store
+labs/.DS_Store
+labs/promotion_labs/automation/.DS_Store
+setup_jenkins/.DS_Store

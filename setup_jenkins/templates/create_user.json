@@ -1,0 +1,7 @@
+{
+  "name": "<USER>",
+  "email" : "<USER>@test.com",
+  "password": "<PASSWORD>",
+  "disableUIAccess" : false,
+  "realm": "Internal"
+}

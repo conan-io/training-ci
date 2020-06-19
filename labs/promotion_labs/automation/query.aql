@@ -1,0 +1,9 @@
+items.find({
+    "repo": "conan-metadata",
+    "name": { "$match" : "*.lock"}, 
+    "$and": [
+        { "@build.name": "products/master" }, 
+        { "@build.number": "21" }, 
+        { "@profile": "release-gcc6" }
+    ]
+}).include("repo","path","name","@version")
