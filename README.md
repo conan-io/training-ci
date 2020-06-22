@@ -9,6 +9,6 @@ ssh conan@orbitera_IP (Use password from orbitera)
 
 git clone https://github.com/conan-io/training-ci.git
 
-cd conan_ci_cd/setup_jenkins
+cd training-ci/setup_jenkins/
 
 ./bootstrap.sh <artifactory_password> <jenkins_credential>
