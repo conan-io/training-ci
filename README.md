@@ -5,7 +5,7 @@ All the code is in the organization: https://github.com/conan-ci-cd-training
 
 # Running in the Orbitera instance:
 
-ssh conan@<orbitera-IP> (Use password from orbitera)
+ssh conan@orbitera_IP (Use password from orbitera)
 
 git clone https://github.com/conan-io/training-ci.git
 
