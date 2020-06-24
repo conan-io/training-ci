@@ -3,7 +3,7 @@ items.find({
     "name": { "$match" : "*.lock"}, 
     "$and": [
         { "@build.name": "products/master" }, 
-        { "@build.number": "21" }, 
+        { "@build.number": "7" }, 
         { "@profile": "release-gcc6" }
     ]
 }).include("repo","path","name","@version")

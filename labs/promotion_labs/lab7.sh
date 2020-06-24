@@ -9,9 +9,11 @@ cat automation/filespec.json
 jfrog rt download --spec=automation/filespec.json 
 
 # “deploy” the package referenced in the lockfile in the current path
-conan install App/1.0@mycompany/stable --lockfile app_release.lock -g deploy -r conan-develop
+conan install App/1.0@mycompany/stable --lockfile App-release-gcc6.lock -g deploy -r conan-develop  --update
+
 ls -l App/ 
 
 # execute the deployed App 
 ./App/bin/App
+
 

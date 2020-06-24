@@ -6,6 +6,8 @@ cat bo.json
 
 cp App.lock conan.lock
 
+cat conan.lock
+
 conan install libD/1.0@mycompany/stable --build libD --lockfile conan.lock
 
 cp conan.lock libD.lock
@@ -17,3 +19,4 @@ cat libD.lock
 conan graph update-lock App.lock libD.lock
 
 cat App.lock
+
